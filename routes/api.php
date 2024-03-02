@@ -19,6 +19,4 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
 });
 
-Route::get('/posts', [PostController::class, 'posts']);
-Route::get('/post/details/{slug}', [PostController::class, 'postDetails']);
-Route::get('/featured', [PostController::class, 'featuredPost']);
+
