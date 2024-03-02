@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\PostController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -21,3 +22,6 @@ Route::get('/', function () {
 Route::group(['prefix' => 'admin'], function () {
     Voyager::routes();
 });
+Route::get('/posts', [PostController::class, 'posts']);
+Route::get('/post/details/{slug}', [PostController::class, 'postDetails']);
+Route::get('/featured', [PostController::class, 'featuredPost']);
