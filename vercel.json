@@ -15,9 +15,9 @@
         "APP_NAME": "Laravel Vercel",
         "APP_ENV": "production",
         "APP_DEBUG": "false",
-        "APP_KEY": "base64:uVBZAEijGksNN4aN/lVwHSfAeLDu5PZqF9p54rLvgbg=",
+
         "APP_URL": "https://laravel-vercel.vercel.app",
-        "DATABASE_URL": "mysql://avnadmin:AVNS_0pMRVvTNUXfa92wb6VO@mysql-234e0b6c-nsmajm-36b3.a.aivencloud.com:16518/blog",
+
         "APP_CONFIG_CACHE": "/tmp/config.php",
         "APP_EVENTS_CACHE": "/tmp/events.php",
         "APP_PACKAGES_CACHE": "/tmp/packages.php",
