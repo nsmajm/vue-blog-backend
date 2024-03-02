@@ -13,8 +13,8 @@
     ],
     "env": {
         "APP_NAME": "Laravel Vercel",
-        "APP_ENV": "production",
-        "APP_DEBUG": "false",
+        "APP_ENV": "devlopment",
+        "APP_DEBUG": "true",
 
         "APP_URL": "https://vue-blog-backend-ashy.vercel.app",
 
